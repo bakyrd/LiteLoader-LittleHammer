@@ -1,0 +1,23 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "LittleHammer",
+  "slug": "littlehammer",
+  "description": "自用小锤，用来敲碎星之杖",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Il Harper",
+      "link": "https://github.com/ilharp"
+    }
+  ],
+  "repository": {
+    "repo": "bakyrd/LiteLoader-LittleHammer",
+    "branch": "master"
+  },
+  "platform": ["win32", "linux", "darwin"],
+  "dependencies": [],
+  "injects": {
+    "main": "./dist/index.js"
+  }
+}
